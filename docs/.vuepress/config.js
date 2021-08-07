@@ -38,8 +38,11 @@ module.exports = {
           title: '基础',
           collapsable: false,
           children: [
-            'qucik/搭建项目',
-            'qucik/快速上手'
+            'ess_搭建项目',
+            'ess_配置信息',
+            'ess_监听事件',
+            'ess_使用适配器',
+            'ess_编译成插件'
           ]
         }, {
           title: '进阶',
