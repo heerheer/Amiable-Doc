@@ -38,7 +38,8 @@ module.exports = {
           title: '基础',
           collapsable: false,
           children: [
-            '快速上手'
+            'qucik/搭建项目',
+            'qucik/快速上手'
           ]
         }, {
           title: '进阶',
