@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>下载Amiable. Core | Amiable Doc</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    
+    <meta name="description" content="A C# SDK For Bot(Almost All Bot Platform) Plugin Development">
+    
+    <link rel="preload" href="/Amiable-Doc/assets/css/0.styles.2622985f.css" as="style"><link rel="preload" href="/Amiable-Doc/assets/js/app.9e8ec5d1.js" as="script"><link rel="preload" href="/Amiable-Doc/assets/js/2.aa67f9b4.js" as="script"><link rel="preload" href="/Amiable-Doc/assets/js/8.7736e5b1.js" as="script"><link rel="prefetch" href="/Amiable-Doc/assets/js/10.41deb083.js"><link rel="prefetch" href="/Amiable-Doc/assets/js/3.8a7c68e2.js"><link rel="prefetch" href="/Amiable-Doc/assets/js/4.2a5d96fc.js"><link rel="prefetch" href="/Amiable-Doc/assets/js/5.acf65f59.js"><link rel="prefetch" href="/Amiable-Doc/assets/js/6.004ca1a2.js"><link rel="prefetch" href="/Amiable-Doc/assets/js/7.d9770a19.js"><link rel="prefetch" href="/Amiable-Doc/assets/js/9.0b1585d2.js">
+    <link rel="stylesheet" href="/Amiable-Doc/assets/css/0.styles.2622985f.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/Amiable-Doc/" class="home-link router-link-active"><!----> <span class="site-name">Amiable Doc</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <!----></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><!---->  <!----> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="下载amiable-core"><a href="#下载amiable-core" class="header-anchor">#</a> 下载Amiable. Core</h1> <h2 id="推荐-使用amiable-cli"><a href="#推荐-使用amiable-cli" class="header-anchor">#</a> 推荐: 使用Amiable CLI</h2> <h2 id="方法二-使用git源码"><a href="#方法二-使用git源码" class="header-anchor">#</a> 方法二: 使用Git源码</h2> <h1 id="配置插件信息"><a href="#配置插件信息" class="header-anchor">#</a> 配置插件信息</h1> <h2 id="修改appinfo方法"><a href="#修改appinfo方法" class="header-anchor">#</a> 修改AppInfo方法</h2> <div class="language- extra-class"><pre class="language-text"><code>Amiable.Core/AmiableService.cs
+</code></pre></div><p>Name为插件名</p> <p>Author为作者</p> <p>Version为插件版本</p> <p>Description为插件描述</p> <div class="language- extra-class"><pre class="language-text"><code>public static void SetAppInfo()
+    {
+        App.AppInfo = new AppInfo
+        {
+            Name = &quot;Amiable.Core&quot;,
+            Author = &quot;Heer Kaisair&quot;,
+            Version = &quot;1.0.0&quot;,
+            Description = &quot;Amiable例程插件&quot;,
+        };
+    }
+</code></pre></div><h2 id="修改程序集名称"><a href="#修改程序集名称" class="header-anchor">#</a> 修改程序集名称</h2> <p>因为修改好编译了直接就就能用
+格式基本都是</p> <p><strong>插件名.&lt;框架扩展&gt;</strong></p> <h2 id="更改项目平台"><a href="#更改项目平台" class="header-anchor">#</a> 更改项目平台</h2> <p>位于 <code>Amiable. Core/Export.cs</code></p> <p>我们需要更改顶部的</p> <p><code>#define Platform_XQ</code></p> <p>目前已经提供的平台请查看</p> <p><a href="/Amiable-Doc/Start/目前支持平台.html">平台列表</a></p></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/Amiable-Doc/assets/js/app.9e8ec5d1.js" defer></script><script src="/Amiable-Doc/assets/js/2.aa67f9b4.js" defer></script><script src="/Amiable-Doc/assets/js/8.7736e5b1.js" defer></script>
+  </body>
+</html>

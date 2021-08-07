@@ -1,0 +1,9 @@
+{
+    "configurations": [{
+        "type": "node-terminal",
+        "name": "Run Script: deploy",
+        "request": "launch",
+        "command": "yarn run deploy",
+        "cwd": "${workspaceFolder}"
+    }]
+}
