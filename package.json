@@ -1,0 +1,15 @@
+{
+  "name": "Amiable",
+  "version": "1.0.0",
+  "description": "一个兼容所有平台的C# Bot插件开发SDK",
+  "main": "index.js",
+  "author": "Heer Kaisair",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
