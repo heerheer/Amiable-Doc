@@ -3,7 +3,7 @@
         "type": "node-terminal",
         "name": "Run Script: deploy",
         "request": "launch",
-        "command": "yarn run deploy",
-        "cwd": "${workspaceFolder}"
+        "command": "bash yarn run deploy",
+        "cwd": "${workspaceFolder}",
     }]
 }
