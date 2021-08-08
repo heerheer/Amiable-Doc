@@ -73,10 +73,16 @@ module.exports = {
             '/api/Amiable/AmiableService.md',
             '/api/Amiable/AppService.md'
           ]
+        },
+        {
+          title: '多平台',
+          collapsable: false,
+          children: [
+            '/api/支持的平台.md',
+            '/api/适配器.md'
+          ]
         }
-
-      }
-    ]
+      ]
+    }
   }
-}
 }
