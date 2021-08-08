@@ -65,7 +65,18 @@ module.exports = {
         //   ]
         // }
 
-      ]
-    }
+      ],
+      '/api/': [{
+          title: '类型',
+          collapsable: false,
+          children: [
+            '/api/Amiable/AmiableService.md',
+            '/api/Amiable/AppService.md'
+          ]
+        }
+
+      }
+    ]
   }
+}
 }
