@@ -1,9 +1,10 @@
 ---
 home: true
 heroText: Amiable
-tagline: 一个多框架兼容的C# Bot开发SDK
+heroImage: /Amiable_Icon.png
+tagline: 一个Onebot标准的多框架兼容C# Bot开发SDK
 actionText: 快速上手 →
-actionLink: /summary/
+actionLink: /summary/简介
 
 features:
 - title: 佛系维护
@@ -12,4 +13,6 @@ features:
   details: 先驱C#SDK的多次更新换代造就了Amiable
 - title: 开源与社区
   details: Github就当作SDK的社区好了~
+- title: Onebot与Amiable标准
+  details: Onebot标准作为底层基础上将事件转化为了Amiable标准事件(
 ---
