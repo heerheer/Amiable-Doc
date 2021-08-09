@@ -34,6 +34,19 @@ git clone -b core https://github.com/heerheer/Amiable.git HorseRaceAmi
 注:修改项目名时可以取名为任何方便记忆的名字，不一定要用插件中文名
 注2:修改程序集名称的目的只是方便编译出*.dll (不带<Platform\>后缀) 插件。
 
+### 添加类库项目
+> 这种开发方式是从Jie2GG那里深入人心的~
+
+在解决方案中添加一个 **.Net Framework 4.8** 类库项目
+
+并且安装 Amiable.SDK 的 Nuget包
+
+```powershell
+PM> Install-Package Amiable.SDK -Version 1.0.0
+```
+
+对Core项目中添加Code项目(刚刚创建的)的引用
+
 ***
 当你需要注意:
 - 修改SDK项目与Core项目的 **程序集信息**
