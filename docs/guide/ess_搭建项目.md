@@ -31,6 +31,9 @@ git clone -b core https://github.com/heerheer/Amiable.git HorseRaceAmi
 - 修改 *Amiable.Core项目* 的 **程序集信息** 为你的 **插件名**
 - 修改 *Amiable.Core项目* 的名字 为 你的 **<插件名>.Core**
 
+注:修改项目名时可以取名为任何方便记忆的名字，不一定要用插件中文名
+注2:修改程序集名称的目的只是方便编译出*.dll (不带<Platform\>后缀) 插件。
+
 ***
 当你需要注意:
 - 修改SDK项目与Core项目的 **程序集信息**
