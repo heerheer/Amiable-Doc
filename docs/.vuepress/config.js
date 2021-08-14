@@ -67,6 +67,13 @@ module.exports = {
 
       ],
       '/api/': [{
+          title: '标准',
+          collapsable: false,
+          children: [
+            '/api/Amiable/事件.md',
+          ]
+        },
+        {
           title: '类型',
           collapsable: false,
           children: [
